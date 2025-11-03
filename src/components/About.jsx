@@ -47,11 +47,19 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in Python, JavaScript,
-        AWS and expertise in frameworks like React, Node.js, FastApi and
-        Tensorflow. I'm a quick learner and collaborate closely to create
-        efficient, scalable, and user-friendly solutions that solve real-world
-        problems.
+        I am a Machine Learning Engineer and Data Scientist with 3 years of
+        experience designing and deploying scalable AI and NLP solutions across
+        finance, healthcare, and research domains. I specialize in deep
+        learning, transformers, LLMs, generative AI, and full-stack data
+        pipelines, with hands-on expertise in Python, PyTorch, TensorFlow,
+        LangChain, AWS, Kubernetes, and distributed data systems. Throughout my
+        career, I have built production-ready RAG workflows, voice cloning
+        systems, microservices-based analytics platforms, automated financial
+        data pipelines, and advanced entity-matching solutions, consistently
+        improving efficiency, accuracy, and user experience. I am passionate
+        about translating complex technical challenges into actionable solutions
+        that deliver measurable business impact while mentoring teams and
+        contributing to innovative AI products.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

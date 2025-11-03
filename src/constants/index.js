@@ -32,6 +32,10 @@ import {
   sql,
   tableau,
   iotiot,
+  trulogik,
+  seemas,
+  osu,
+  mle,
 } from "../assets";
 
 export const navLinks = [
@@ -268,67 +272,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Financial News Chatbot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An AI-powered financial news chatbot that delivers concise, real-time summaries of market developments, SEC filings, and company reports. Leveraging transformer-based NLP models and RAG workflows, it extracts and synthesizes relevant financial insights, providing users with actionable information quickly and accurately. The system integrates automated data pipelines, multi-source ingestion, and advanced search capabilities to ensure comprehensive coverage while reducing manual research time. Designed for scalability and low-latency performance, it enables financial analysts and investors to stay informed and make data-driven decisions efficiently.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "OpenAI",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "PineCone",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Automated Company Valuation Report",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An AI-driven system that automates the generation of comprehensive company valuation reports. Leveraging RAG workflows, transformer-based NLP models, and fine-tuned financial text summarization, it extracts key insights from SEC filings, financial statements, and market data to produce accurate and actionable reports. The platform integrates scalable data pipelines, real-time quantitative analysis, and microservices architecture to ensure efficiency, reliability, and low-latency delivery. By reducing manual drafting time and improving reporting accuracy, it empowers analysts and investors to make informed decisions faster and more confidently.",
     tags: [
       {
-        name: "react",
+        name: "OpenAI",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Langchain",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "EHR - Claims Record Matching System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An AI-powered record matching platform designed to accurately link and deduplicate healthcare claims and EHR data. Utilizing BERT embeddings, NLP techniques, and supervised entity matching models (e.g., DeepMatcher and Siamese networks), the system efficiently identifies corresponding records across disparate sources. Integrated clustering algorithms and scalable ML pipelines ensure high accuracy, reduce manual review workload, and improve data integrity. By automating the matching process, the platform enables healthcare organizations to streamline operations, enhance compliance reporting, and make data-driven decisions with confidence.",
     tags: [
       {
-        name: "nextjs",
+        name: "AWS SageMaker",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Pytorch",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "NLP - BERT",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Solr",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
   },
 ];
 

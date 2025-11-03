@@ -34,6 +34,10 @@ import pwc from "./company/pwc.png";
 import gramiksha from "./company/gramiksha.png";
 import philips from "./company/philips.png";
 import iotiot from "./company/iotiot.jpg";
+import osu from "./company/osu.jpg";
+import seemas from "./company/seemas.jpg";
+import trulogik from "./company/trulogik.jpg";
+import mle from "./tech/mle.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -77,4 +81,8 @@ export {
   sql,
   tableau,
   iotiot,
+  osu,
+  seemas,
+  trulogik,
+  mle,
 };
