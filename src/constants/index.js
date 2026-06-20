@@ -36,6 +36,10 @@ import {
   seemas,
   osu,
   mle,
+  equifax,
+  AI_agents,
+  media_recommender,
+  recipe_medical
 } from "../assets";
 
 export const navLinks = [
@@ -138,7 +142,7 @@ const technologies = [
 const experiences = [
   {
     title: "Data Scientist",
-    company_name: "equifax",
+    company_name: "Equifax",
     icon: equifax,
     iconBg: "#383E56",
     date: "April 2026 - Present",
@@ -283,6 +287,69 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "EDA Agents",
+    description:
+      "An intelligent, multi-agent framework designed to autonomously conduct Exploratory Data Analysis (EDA). This project leverages large language models (LLMs) and agentic orchestration to transform raw data into actionable insights through automated cleaning, visualization, and statistical analysis.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "LangChain",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Streamlit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: AI_agents,
+    source_code_link: "https://github.com/akashsmu/EDA_Agents",
+  },
+  {
+    name: "AI Media Recommender System",
+    description:
+      "A sophisticated multi-agent AI system that provides personalized movie, TV, and book recommendations using CrewAI, real-time APIs, and intelligent personalization with Mem0 vector memory. Features a modern Streamlit UI with cache warming and RAG evaluation.",
+    tags: [
+      {
+        name: "CrewAI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Streamlit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: media_recommender,
+    source_code_link: "https://github.com/akashsmu/Movie_Book_CrewAI",
+  },
+  {
+    name: "MCP Recipe Medical",
+    description:
+      "A minimal, production-ready Model Context Protocol (MCP) server for recipe generation using FastMCP. Generates recipes from ingredients using OpenAI with support for multiple cuisines and diets, featuring async and concurrent processing.",
+    tags: [
+      {
+        name: "FastMCP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: recipe_medical,
+    source_code_link: "https://github.com/akashsmu/MCP_receipe_medical",
+  },
   {
     name: "Financial News Chatbot",
     description:

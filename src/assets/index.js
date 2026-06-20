@@ -38,10 +38,14 @@ import osu from "./company/osu.jpg";
 import seemas from "./company/seemas.jpg";
 import trulogik from "./company/trulogik.jpg";
 import mle from "./tech/mle.png";
+import equifax from "./company/equifax.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import AI_agents from "./AI_Agents.jpeg";
+import media_recommender from "./media_recommender.jpeg";
+import recipe_medical from "./recipe_medical.jpeg";
 
 export {
   logo,
@@ -85,4 +89,8 @@ export {
   seemas,
   trulogik,
   mle,
+  equifax,
+  AI_agents,
+  media_recommender,
+  recipe_medical
 };
