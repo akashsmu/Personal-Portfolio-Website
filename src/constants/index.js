@@ -137,11 +137,23 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Data Scientist",
+    company_name: "equifax",
+    icon: equifax,
+    iconBg: "#383E56",
+    date: "April 2026 - Present",
+    points: [
+      "Designed and developed Python-based SDKs to automate end-to-end ML workflows including data preprocessing, feature engineering, model training, statistical validation, and deployment; integrated MLOps pipelines and monitoring frameworks to improve model reliability and development efficiency.",
+      "Built scalable machine learning solutions on GCP using BigQuery, Vertex AI, and Python; performed large-scale feature engineering, predictive modeling, and analytical data preparation to support enterprise risk analytics and customer intelligence initiatives.",
+      "Engineered an agentic AI platform using Google ADK, Gemini, RAG, Text-to-SQL, BigQuery, and vector search; implemented multi-agent orchestration, explainable retrieval workflows, and secure cloud integrations for production AI applications.",
+    ],
+  },
+  {
     title: "Machine Learning Engineer",
     company_name: "SeemaS",
     icon: seemas,
     iconBg: "#383E56",
-    date: "Nov 2024 - Present",
+    date: "Nov 2024 - April 2026",
     points: [
       "Developed and deployed RAG workflows with FinGPT using Python and LangChain to automate company valuation reports, fine-tune transformer models, and improve reporting accuracy by 18%, showcasing expertise in quantitative research, analytics, and business-focused communication.",
       "Built a microservices-based comparable company analysis platform with Django Ninja, Flask APIs, and Docker, leveraging Perplexity API for real-time quantitative filtering; reduced analyst effort by 60% and scaled throughput to 4K+ companies/month with sub-2s latency, aligning with business strategy and performance optimization.",
