@@ -159,14 +159,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "Nov 2024 - April 2026",
     points: [
-      "Developed and deployed RAG workflows with FinGPT using Python and LangChain to automate company valuation reports, fine-tune transformer models, and improve reporting accuracy by 18%, showcasing expertise in quantitative research, analytics, and business-focused communication.",
-      "Built a microservices-based comparable company analysis platform with Django Ninja, Flask APIs, and Docker, leveraging Perplexity API for real-time quantitative filtering; reduced analyst effort by 60% and scaled throughput to 4K+ companies/month with sub-2s latency, aligning with business strategy and performance optimization.",
-      "Designed and deployed a YouTube summarization system integrating Whisper Large V3 Turbo, Llama 3.1, LangChain, and OpenSearch in AWS EKS (Kubernetes), achieving 92% summary accuracy and reducing transcript review time by 50%, demonstrating ability to rapidly prototype and deploy scalable cloud-based solutions.",
-      "Implemented voice cloning solutions with ElevenLabs API, asynchronous REST APIs, and streaming microservices, achieving 90% user satisfaction in voice realism and reducing text-to-speech latency by 40%; highlights critical problem-solving and stakeholder-focused delivery.",
-      "Architected an automated financial data pipeline with Apache Airflow, Pandas, NumPy, and SQL for SEC filings and Morningstar datasets; improved data reliability by 30%, halved reporting cycles, and ensured scalable parallel processing for large datasets, reflecting strong SQL optimization and data management skills.",
-      "Prototyped interactive analytics dashboards with Tableau and Streamlit to visualize financial KPIs, model outputs, and executive-ready insights, enabling faster decision-making and improving stakeholder communication.",
-      "Deployed scalable user management and access control with Auth0, Fine-Grained Authorization (FGA), and RBAC to enable hierarchical multi-tenant security models; reduced onboarding time by 70% and decreased support tickets by 35%, demonstrating collaboration across technical and business stakeholders.",
-      "Optimized ingestion and processing of NoSQL datasets (MongoDB, OpenSearch) and implemented Spark-based workflows for distributed financial data analysis, improving scalability and compliance reporting efficiency; integrated with Snowflake for query optimization and cloud-based analytics.",
+      "Built and deployed RAG-based NLP pipelines using Python, OpenAI 4o, and LangChain; fine-tuned transformer models and conducted cross-validation, experimentation, and statistical evaluation, improving model accuracy by 18% and reducing manual drafting time by 65%.",
+      "Developed a microservices-based ML platform using Django Ninja, Docker, and Python for comparable company analysis; applied classification and clustering techniques with real-time data processing, reducing workload by 60% while scaling to 4K+ companies.",
+      "Developed and optimized a production AI summarization system using transformer architectures, LangChain, and OpenSearch on AWS EKS; leveraged experimentation, A/B testing, and performance monitoring to achieve 92% accuracy.",
+      "Engineered low-latency voice AI pipelines using ElevenLabs APIs and streaming microservices; performed error analysis, model evaluation, and iterative optimization to reduce TTS latency by 40% and improve user satisfaction to 90%.",
+      "Architected financial data pipelines using Airflow, Pandas, and NumPy for large-scale data integration, feature selection, and feature engineering across SEC and Morningstar datasets; improved data reliability by 30% through reproducible validation workflows.",
+      "Built an agentic EDA framework using Python, LangChain, and LangGraph with multi-agent orchestration for automated data cleaning, visualization, and statistical feature extraction; enabled experiment reproducibility, model evaluation, and scalable analytics workflows."
     ],
   },
   {
