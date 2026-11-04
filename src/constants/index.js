@@ -140,24 +140,24 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Data Scientist",
-    company_name: "Equifax",
-    icon: equifax,
-    iconBg: "#383E56",
-    date: "April 2026 - Present",
-    points: [
-      "Designed and developed Python-based SDKs to automate end-to-end ML workflows including data preprocessing, feature engineering, model training, statistical validation, and deployment; integrated MLOps pipelines and monitoring frameworks to improve model reliability and development efficiency.",
-      "Built scalable machine learning solutions on GCP using BigQuery, Vertex AI, and Python; performed large-scale feature engineering, predictive modeling, and analytical data preparation to support enterprise risk analytics and customer intelligence initiatives.",
-      "Engineered an agentic AI platform using Google ADK, Gemini, RAG, Text-to-SQL, BigQuery, and vector search; implemented multi-agent orchestration, explainable retrieval workflows, and secure cloud integrations for production AI applications.",
-    ],
-  },
+  // {
+  //   title: "Data Scientist",
+  //   company_name: "Equifax",
+  //   icon: equifax,
+  //   iconBg: "#383E56",
+  //   date: "April 2026 - Present",
+  //   points: [
+  //     "Designed and developed Python-based SDKs to automate end-to-end ML workflows including data preprocessing, feature engineering, model training, statistical validation, and deployment; integrated MLOps pipelines and monitoring frameworks to improve model reliability and development efficiency.",
+  //     "Built scalable machine learning solutions on GCP using BigQuery, Vertex AI, and Python; performed large-scale feature engineering, predictive modeling, and analytical data preparation to support enterprise risk analytics and customer intelligence initiatives.",
+  //     "Engineered an agentic AI platform using Google ADK, Gemini, RAG, Text-to-SQL, BigQuery, and vector search; implemented multi-agent orchestration, explainable retrieval workflows, and secure cloud integrations for production AI applications.",
+  //   ],
+  // },
   {
     title: "Machine Learning Engineer",
     company_name: "SeemaS",
     icon: seemas,
     iconBg: "#383E56",
-    date: "Nov 2024 - April 2026",
+    date: "Nov 2024 - October 2025",
     points: [
       "Built and deployed RAG-based NLP pipelines using Python, OpenAI 4o, and LangChain; fine-tuned transformer models and conducted cross-validation, experimentation, and statistical evaluation, improving model accuracy by 18% and reducing manual drafting time by 65%.",
       "Developed a microservices-based ML platform using Django Ninja, Docker, and Python for comparable company analysis; applied classification and clustering techniques with real-time data processing, reducing workload by 60% while scaling to 4K+ companies.",
